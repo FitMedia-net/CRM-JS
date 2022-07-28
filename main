@@ -1,0 +1,9 @@
+<script>
+    // Custom Favicon
+    var faviconURL = 'https://storage.googleapis.com/msgsndr/fXR9EvxOEKj3MwHfBby9/media/62e25d8b86dfa3b6c629bf0d.png' // Upload an image into a location funnel and then use the URL here.
+    var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+    link.type = 'image/x-icon';
+    link.rel = 'shortcut icon';
+    link.href = faviconURL
+    document.getElementsByTagName('head')[0].appendChild(link);
+</script>
